@@ -1,0 +1,104 @@
+.index-background{
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/home.jpeg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	-moz-background-size:100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.index-logo{
+	text-align: center;
+	padding-top: 50px;
+	position: relative;
+	z-index: 2;
+}
+
+.index-logo > img{
+	width: 100%;
+}
+
+.index-body, .operation, .award-info{
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.answer-button{
+	padding: .9em 3em;
+	font-size: 1em;
+	box-shadow: 0px 5px 20px black;
+}
+
+.index-footer{
+	margin-top: 20px;
+	color: white;
+	font-size: 2.5em;
+}
+
+.question-body{
+	margin-top: 50px;
+	position: relative;
+	z-index: 2;
+}
+
+.question-body > div{
+	margin: 0 auto;
+	width: 500px;
+	border: 5px solid orange;
+	box-shadow: 5px 5px 40px 3px black;
+	background-color: white;
+	padding: 12px 20px 40px 20px;
+}
+
+.question{
+	color: purple;
+	font-size: 1.4em;
+	font-family: STKaiti;
+	font-weight: bold;
+}
+
+.answer{
+	margin-top: 30px;
+}
+
+.answer > .am-radio, .answer > .am-checkbox{
+	color: purple;
+	margin-top: 20px;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.answer > textarea {
+	width: 100%;
+	color: purple;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 1.5em;
+	resize: none;
+}
+
+.operation{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.operation > span{
+	display: inline-block;
+	width: 30px;
+}
+
+.award-info{
+	margin: 0px auto 20px auto;
+	padding: 10px;
+	width: 500px;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: left;
+}
