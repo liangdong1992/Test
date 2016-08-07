@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>1<br/>2<br/>4<br/>Array<br/>是的 围绕新中国成立60周年和改革开放30年所取得的伟大成就, 谈谈你的感想
